@@ -18,16 +18,21 @@ $(saveBtn).on('click', function saveInput() {
     console.log(date);
     console.log(currentTime);
 
-    const hour = (".hour")
+    const time = ["#hour-9", "#hour-10", "#hour-11", "#hour-12", "#hour-1", "#hour-2", "#hour-3", "#hour-4", "#hour-5"];
+    time.split("hour-");
+    console.log(time);
+
+
 
     if (hour < currentTime) {
-      (".time-block").addClass(".past")
-    } else (hour = currentTime) {
-      (".time-block").addClass(".present")
-    } else (hour > currentTime) {
-      (".time-block").addClass(".future")
+      (time).addClass(".past")
+    } else if (hour = currentTime) {
+      (time).addClass(".present")
+    } else if (hour > currentTime) {
+      (time).addClass(".future")
     }
   });
+  $(checkTime())
 
 // $(function showDate() {
 //    $("#currentDay").append(date);
