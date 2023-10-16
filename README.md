@@ -11,3 +11,5 @@ My classmates Chuyi and Sean!
 [Chuyi's repository](https://github.com/Achurale/Work-Scheduler)
 
 [Deployed Website](https://bloodymajima.github.io/workday-scheduler/)
+
+[Screenshot of Deployed website](\assets\screenshot.png)
